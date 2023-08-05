@@ -1,0 +1,1937 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.6f1 (b9e6e7e9fa2d) revision 12183271'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ko' Physical Memory: 16135 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\UnityProject\2022.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/UnityProject/Mr.Devil/MR_Devil_URP_2022_3_6f1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3595
+Successfully changed project path to: E:/UnityProject/Mr.Devil/MR_Devil_URP_2022_3_6f1
+E:/UnityProject/Mr.Devil/MR_Devil_URP_2022_3_6f1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [41700] Host "[IP] 192.168.200.195 [Port] 0 [Flags] 2 [Guid] 2604327849 [EditorId] 2604327849 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-32SI35J1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [41700] Host "[IP] 192.168.200.195 [Port] 0 [Flags] 2 [Guid] 2604327849 [EditorId] 2604327849 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-32SI35J1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 17.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
+[Subsystems] Discovering subsystems at path E:/UnityProject/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UnityProject/Mr.Devil/MR_Devil_URP_2022_3_6f1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro T2000 (ID=0x1fb8)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.2890
+Initialize mono
+Mono path[0] = 'E:/UnityProject/2022.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityProject/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/UnityProject/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityProject/2022.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/UnityProject/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: E:/UnityProject/2022.3.6f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.006568 seconds.
+- Loaded All Assemblies, in  0.566 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.503 seconds
+Domain Reload Profiling: 1070ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (504ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (409ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (128ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Mr.Devil\MR_Devil_URP_2022_3_6f1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Mr.Devil\MR_Devil_URP_2022_3_6f1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.262 seconds
+Refreshing native plugins compatible for Editor in 5.23 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.084 seconds
+Domain Reload Profiling: 2345ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (892ms)
+		LoadAssemblies (549ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (482ms)
+			TypeCache.Refresh (439ms)
+				TypeCache.ScanAssembly (416ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1084ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (820ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (601ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5628 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (75.1 MB). Loaded Objects now: 6076.
+Memory consumption went from 224.5 MB to 149.4 MB.
+Total: 10.485500 ms (FindLiveObjects: 1.124000 ms CreateObjectMapping: 0.723400 ms MarkObjects: 7.862700 ms  DeleteObjects: 0.774200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1371772.262109 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.002587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Mr.Devil\MR_Devil_URP_2022_3_6f1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Mr.Devil\MR_Devil_URP_2022_3_6f1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.997 seconds
+Refreshing native plugins compatible for Editor in 4.10 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.331 seconds
+Domain Reload Profiling: 2327ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (711ms)
+		LoadAssemblies (373ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (422ms)
+			TypeCache.Refresh (400ms)
+				TypeCache.ScanAssembly (381ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1331ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (656ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (475ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5493 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (0.9 MB). Loaded Objects now: 6085.
+Memory consumption went from 201.4 MB to 200.5 MB.
+Total: 4.761500 ms (FindLiveObjects: 0.504300 ms CreateObjectMapping: 0.494500 ms MarkObjects: 3.369100 ms  DeleteObjects: 0.392400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57.644952 seconds.
+  path: Assets/GUI Kit - BlueSky
+  artifactKey: Guid(7999d71b1ce244d4eb57c0968a9525a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky using Guid(7999d71b1ce244d4eb57c0968a9525a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4692aa462be15b264974d2592ccd4a51') in 0.005880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.304804 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbaf86c3f03648c5e793ca5c7378c2ed') in 0.000854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.933502 seconds.
+  path: Assets/SampleScene.unity
+  artifactKey: Guid(0a2b93f7e0412f844b818747447b8cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleScene.unity using Guid(0a2b93f7e0412f844b818747447b8cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33739f93755aa8a4a85c557493f154d') in 0.000698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.588523 seconds.
+  path: Assets/UI.unity
+  artifactKey: Guid(29df65fe0c2130043befc7a789584aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI.unity using Guid(29df65fe0c2130043befc7a789584aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf2fe9b2c595f09b7f6bea826d30288') in 0.000794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Mr.Devil\MR_Devil_URP_2022_3_6f1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Mr.Devil\MR_Devil_URP_2022_3_6f1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.897 seconds
+Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.003 seconds
+Domain Reload Profiling: 2900ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (586ms)
+		LoadAssemblies (325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (352ms)
+				TypeCache.ScanAssembly (335ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2004ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (414ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (1.6 MB). Loaded Objects now: 6091.
+Memory consumption went from 205.3 MB to 203.7 MB.
+Total: 5.985000 ms (FindLiveObjects: 0.437900 ms CreateObjectMapping: 0.457900 ms MarkObjects: 4.333300 ms  DeleteObjects: 0.755100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Mr.Devil\MR_Devil_URP_2022_3_6f1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\Mr.Devil\MR_Devil_URP_2022_3_6f1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.865 seconds
+Refreshing native plugins compatible for Editor in 3.69 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.524 seconds
+Domain Reload Profiling: 2389ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (617ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (357ms)
+				TypeCache.ScanAssembly (340ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1525ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (816ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (580ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 4.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (1.6 MB). Loaded Objects now: 6096.
+Memory consumption went from 205.3 MB to 203.7 MB.
+Total: 6.625300 ms (FindLiveObjects: 0.586500 ms CreateObjectMapping: 0.669500 ms MarkObjects: 4.442200 ms  DeleteObjects: 0.926100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2377.450610 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify00_Red.png
+  artifactKey: Guid(7c38e08a6acfc4b4ba94fd1dfdcc0b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify00_Red.png using Guid(7c38e08a6acfc4b4ba94fd1dfdcc0b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbb1d0aa0d3cbc9a6de2a75152b3f23') in 0.036964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 452.168397 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/SampleParticle
+  artifactKey: Guid(959688d32877e45bb9b9349a3c3da092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/SampleParticle using Guid(959688d32877e45bb9b9349a3c3da092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9466212cbc68f2646a6ee1d919f1fcc1') in 0.001763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1120.856389 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Fonts/Baloo Bhaijaan Regular 400.ttf
+  artifactKey: Guid(bf11a58e2307b4d3dba9a80557b18850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Fonts/Baloo Bhaijaan Regular 400.ttf using Guid(bf11a58e2307b4d3dba9a80557b18850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56d3546e9343fedcc5f19483f7cdc0e') in 0.017238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 177.533894 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/SampleParticle/Texture/fx_rotate_line.png
+  artifactKey: Guid(d33adfbefdef145e88f522c853409536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/SampleParticle/Texture/fx_rotate_line.png using Guid(d33adfbefdef145e88f522c853409536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0db28a62b87c88d7259d78b305eebd') in 0.005431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 31.170431 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/SampleParticle/Texture/fx_star.png
+  artifactKey: Guid(8ab8562ba41bb4dda828d18a8169bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/SampleParticle/Texture/fx_star.png using Guid(8ab8562ba41bb4dda828d18a8169bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979ebd2a89293f02d94bac0c2922d6b1') in 0.002421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 126.318019 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Switch_Frame_white.png
+  artifactKey: Guid(640801aa28b2f4787a5261ce04a8cd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Switch_Frame_white.png using Guid(640801aa28b2f4787a5261ce04a8cd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffbe61d0991ffb333333560cf679636') in 0.002288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.403638 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Switch_Handle.png
+  artifactKey: Guid(430c47959992a4269851e8af75eeab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Switch_Handle.png using Guid(430c47959992a4269851e8af75eeab39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9684f2e9a132933db3102f245a748c') in 0.002638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.897445 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Switch_Frame_on.png
+  artifactKey: Guid(1931b2550c61840919451123b385383c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Switch_Frame_on.png using Guid(1931b2550c61840919451123b385383c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848599bc1f7cfd67d18c97902fda6e95') in 0.001810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.197666 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Switch_Frame_off.png
+  artifactKey: Guid(12a41d7278144407ca8947c63998d9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Switch_Frame_off.png using Guid(12a41d7278144407ca8947c63998d9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e8fba57c18453d3fec60247d7e7558') in 0.001605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.154623 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Square01_On.png
+  artifactKey: Guid(637a6f852bb884ec2bf014b70417e52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Square01_On.png using Guid(637a6f852bb884ec2bf014b70417e52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385a71ebe613d64627aad1dc8a16ac10') in 0.001816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.137788 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Square01_Off_white.png
+  artifactKey: Guid(232bc1a35342a49b189fc2e358522813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Square01_Off_white.png using Guid(232bc1a35342a49b189fc2e358522813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb31aac2b55c50cdef71a5e05f0e7cd') in 0.001798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.292530 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Square01_Off.png
+  artifactKey: Guid(957d0310e124e4bf4afc6f7aa4a761e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Square01_Off.png using Guid(957d0310e124e4bf4afc6f7aa4a761e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c68b9438110ddb269053ad4fceb580') in 0.001410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.178159 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle02_On.png
+  artifactKey: Guid(5e1c58944b385427283b43a4893d0e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle02_On.png using Guid(5e1c58944b385427283b43a4893d0e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8e816d0243633bcd623833278c9eb7') in 0.001578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.086632 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle02_Off_white.png
+  artifactKey: Guid(5c0256fe6d2934df89f1b5342b429ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle02_Off_white.png using Guid(5c0256fe6d2934df89f1b5342b429ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5983a600bde0278a635caea2f5471fd0') in 0.002016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.176979 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle02_Off.png
+  artifactKey: Guid(90e46ffec19f74c14a65be82aae2ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle02_Off.png using Guid(90e46ffec19f74c14a65be82aae2ea54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c512b0c6c53af46130eaa499fdb6f5') in 0.002099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.156954 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle01_White_On.png
+  artifactKey: Guid(50fe68d6d29ca4650b37eb2ac788e113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle01_White_On.png using Guid(50fe68d6d29ca4650b37eb2ac788e113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596d99a286176c000a163250510bd0ed') in 0.002972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.157598 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle01_White_Off.png
+  artifactKey: Guid(d8b1162fe157442419978e421ac699d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle01_White_Off.png using Guid(d8b1162fe157442419978e421ac699d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61575d78aec75d18fb8882036d7b4529') in 0.001966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.157794 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle01_Demo_On.png
+  artifactKey: Guid(adef59ef656be4d43b3a05e42ef30ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle01_Demo_On.png using Guid(adef59ef656be4d43b3a05e42ef30ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec21dca894642761dc2105719d891e2') in 0.001327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.194359 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle01_Demo_Off.png
+  artifactKey: Guid(170384e45e9b84bfab35ef4aad902c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Toggle_Check_Circle01_Demo_Off.png using Guid(170384e45e9b84bfab35ef4aad902c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f4c05f291dc31853bf794626cd5750') in 0.001421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.166685 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Icon_Star.png
+  artifactKey: Guid(bad5c4f603383458aaebc213ec44deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Icon_Star.png using Guid(bad5c4f603383458aaebc213ec44deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652ede673f5aef682c894413244ce641') in 0.001362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.137647 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Icon_Life.png
+  artifactKey: Guid(7d3dc2b7ebf0c489685654dbaf4bff34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Icon_Life.png using Guid(7d3dc2b7ebf0c489685654dbaf4bff34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54623a37fca5b308f9f53821110a1e2b') in 0.002420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.162313 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Icon_Gem.png
+  artifactKey: Guid(61b7d3883fc14485ebe7504ffea88a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Icon_Gem.png using Guid(61b7d3883fc14485ebe7504ffea88a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb34a0ee130b8993331fee1722f415d8') in 0.001684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.355132 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Icon_Coin.png
+  artifactKey: Guid(b10808de498b948398694b06348b3ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Icon_Coin.png using Guid(b10808de498b948398694b06348b3ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742a01d06e4863f7df6f65298ab2bbf8') in 0.002718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.332435 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Frame_Inner.png
+  artifactKey: Guid(6c443dcd6a7c440769713d29ba8f7a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Frame_Inner.png using Guid(6c443dcd6a7c440769713d29ba8f7a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c275589e2935f9ac54fcd12887f4202') in 0.001734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.172029 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Frame.png
+  artifactKey: Guid(332198b940fa74e968af42c96d68b8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Frame.png using Guid(332198b940fa74e968af42c96d68b8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276007aade1964f7d78796c17804820e') in 0.001542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.187861 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Btn_Icon.png
+  artifactKey: Guid(7478a2074e0b74f0d89e7e3e54ada079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Btn_Icon.png using Guid(7478a2074e0b74f0d89e7e3e54ada079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d350b90eab2399a7304c46d24cff99') in 0.001321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.138815 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Btn.png
+  artifactKey: Guid(e98aebe8de58b4b1da6eb2a52606cf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Status_Btn.png using Guid(e98aebe8de58b4b1da6eb2a52606cf07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffbf2fa145a9c36a2f219ba84dec9ec') in 0.001535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.158603 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/PageNavi_On.png
+  artifactKey: Guid(af0f95622eb3c42d187fd0cb190aaaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/PageNavi_On.png using Guid(af0f95622eb3c42d187fd0cb190aaaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36336ab5cf251c8a0f66d90115d8a81a') in 0.001445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.170358 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/PageNavi_Off.png
+  artifactKey: Guid(ebc77c57adc574ea399043da12f3b26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/PageNavi_Off.png using Guid(ebc77c57adc574ea399043da12f3b26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e4c1669cab2e86f9cc478fb4978fa7') in 0.001525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.171129 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify01_White.png
+  artifactKey: Guid(d7bd54b3f69394a9cbf157e1c7c50136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify01_White.png using Guid(d7bd54b3f69394a9cbf157e1c7c50136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cc4f101d5b47cc78ee38ab6ad3d2d7') in 0.002436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.189134 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify01_Green.png
+  artifactKey: Guid(c37387fa3a90549e9a007591dbf4dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify01_Green.png using Guid(c37387fa3a90549e9a007591dbf4dba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e88c4d1c8a458d5807ebf2c831dbeea') in 0.001826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.172319 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify01_Blue.png
+  artifactKey: Guid(2ffb1d61022534fd8a238b71e8b695f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify01_Blue.png using Guid(2ffb1d61022534fd8a238b71e8b695f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab2ea9bc7ee573a60390be786446d83') in 0.001282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.163155 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify00_White.png
+  artifactKey: Guid(33b4f226478554a0787681641e05d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify00_White.png using Guid(33b4f226478554a0787681641e05d4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cca5a5fc696d7589a34b2d9dd6c80f1') in 0.001312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.339704 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify00_Green.png
+  artifactKey: Guid(cbcc16e36b364433185ff024ad5c372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify00_Green.png using Guid(cbcc16e36b364433185ff024ad5c372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328dc5cd3c8e521d46664ef1c941e5d2') in 0.001269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.183236 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify00_Blue.png
+  artifactKey: Guid(f7fa6a0ccc9a94ff6a481fb122dee7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Notify00_Blue.png using Guid(f7fa6a0ccc9a94ff6a481fb122dee7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7ad49893448979bd582aea9ff83f81') in 0.001431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.168333 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Label_Ribbon.png
+  artifactKey: Guid(880cef4b466874c68933f0676dfe1e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Label_Ribbon.png using Guid(880cef4b466874c68933f0676dfe1e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d76fe5b832181faa311149ef7109132') in 0.001811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.169167 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Label02.png
+  artifactKey: Guid(85c5f1f8757494d099cf95092d7669aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Label02.png using Guid(85c5f1f8757494d099cf95092d7669aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646810aaba3f60af813bea3ce7e0939a') in 0.001310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.401178 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Label01.png
+  artifactKey: Guid(30749118a2680481e9ed6eb9231b53a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Label01.png using Guid(30749118a2680481e9ed6eb9231b53a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2b7ec4ff1a70ab9462e0c25f242633') in 0.001316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.203027 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Label00_red.png
+  artifactKey: Guid(7316e542267b14095b92018df2afb0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Label00_red.png using Guid(7316e542267b14095b92018df2afb0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ceb25e04b1a487309f932ab7786eab9') in 0.001570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.162082 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Label00_purple.png
+  artifactKey: Guid(3803829ef3623434889b4c8a565b4bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Label00_purple.png using Guid(3803829ef3623434889b4c8a565b4bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81871ba93abb3f000014c6bc3a4e18f8') in 0.001746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.149460 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Label00_Green.png
+  artifactKey: Guid(16b5009788a20486a9faeb150bdb3e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Label00_Green.png using Guid(16b5009788a20486a9faeb150bdb3e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782abd1922c6271cb3f5a4124d567164') in 0.001994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.157150 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_User.png
+  artifactKey: Guid(27717cd92c75b4c65a193a49854e59e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_User.png using Guid(27717cd92c75b4c65a193a49854e59e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd37095882ff7d0c535571817812a4c') in 0.002239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.148570 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_Required_circle_white.png
+  artifactKey: Guid(37790168695a24362b9a0efa8d9beb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_Required_circle_white.png using Guid(37790168695a24362b9a0efa8d9beb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f86f15ae8d6a1a3546f6e0b93111081') in 0.001332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.159613 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_Required_circle.png
+  artifactKey: Guid(5d16a3799965a490980bded5690d7eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_Required_circle.png using Guid(5d16a3799965a490980bded5690d7eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef6125aff16bff366b75d57cf80730f') in 0.001160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.315598 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_Mail.png
+  artifactKey: Guid(fee8715b211c64f7983927644376cde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_Mail.png using Guid(fee8715b211c64f7983927644376cde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad1dbbf1c4472f4e905882b24da3f36') in 0.001961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.183044 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_Lock.png
+  artifactKey: Guid(1275492e24e4742b8b38b257b5471c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_Lock.png using Guid(1275492e24e4742b8b38b257b5471c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fda54b6319e57fe7320ef1effaf6ca3') in 0.001760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.239730 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_Forgot_pw.png
+  artifactKey: Guid(b82f64ed1dbf24cad9d2ec2805574fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_Forgot_pw.png using Guid(b82f64ed1dbf24cad9d2ec2805574fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfe8251e0484ef2aef31b3dcc1ea432') in 0.001371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.248501 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_Error.png
+  artifactKey: Guid(c27bc4a9d72e64821a7873941d2eb5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Icon_Error.png using Guid(c27bc4a9d72e64821a7873941d2eb5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adee741f49f6d1f16609539cf316d532') in 0.001569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.235273 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Frame_Normal.png
+  artifactKey: Guid(ff7828c73f6804210ae2b96b157960d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Frame_Normal.png using Guid(ff7828c73f6804210ae2b96b157960d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624fc94a752c0413893a44bcbc058d30') in 0.001329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.228405 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Frame_Error.png
+  artifactKey: Guid(7a7b91f0a61164dd79ad73b1052c4acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc/Inputfield_Frame_Error.png using Guid(7a7b91f0a61164dd79ad73b1052c4acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827f6af119ebea657b7c319385789a8f') in 0.001199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.235929 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc
+  artifactKey: Guid(ef08fe79b9c29479bbb36ff250bb669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/UI_Etc using Guid(ef08fe79b9c29479bbb36ff250bb669e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f962bf7eb1b23e5d79e3396d912c7f7') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.197000 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider
+  artifactKey: Guid(5a54373bba6ee4ac9a6e599cb8121a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider using Guid(5a54373bba6ee4ac9a6e599cb8121a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba2c57ae0c46a920e7ed09b2f6b4231') in 0.001305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.290021 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Popup
+  artifactKey: Guid(873345bc8cf89479cb3e1b63854f5fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Popup using Guid(873345bc8cf89479cb3e1b63854f5fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec484413c58bfb01ee966c35d0760b41') in 0.000957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.369806 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon
+  artifactKey: Guid(ca45fb8f3656b4c0883ec44bfafcabd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_PictoIcon using Guid(ca45fb8f3656b4c0883ec44bfafcabd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea3d79bac589082e541e3c9cd1fedb7') in 0.000799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.669738 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider00_Fill_Blue.png
+  artifactKey: Guid(847c31963fc4c44a6b1022826ab62939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider00_Fill_Blue.png using Guid(847c31963fc4c44a6b1022826ab62939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bdd37fac47a333e11db23062e4a27b') in 0.008048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.350416 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider00_Fill_Green.png
+  artifactKey: Guid(0f035707fe1ef4e86bebcf1fe60b2ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider00_Fill_Green.png using Guid(0f035707fe1ef4e86bebcf1fe60b2ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a828e18b1ae88c9c3e87c153b60a353') in 0.002429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.186463 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider00_Fill_White.png
+  artifactKey: Guid(76bda4d0991b0445ab4b263f6c3f10e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider00_Fill_White.png using Guid(76bda4d0991b0445ab4b263f6c3f10e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83099889a998700677f2035e23bb07a8') in 0.001255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.171215 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider00_Fill_Yellow.png
+  artifactKey: Guid(d557e6df219a74c1291c72b5a46f0b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider00_Fill_Yellow.png using Guid(d557e6df219a74c1291c72b5a46f0b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddcc968a32bfcc1440464f7d697cc2c') in 0.001510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.170290 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider00_Frame.png
+  artifactKey: Guid(3fd9eeccb741242839c8a626235f5909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider00_Frame.png using Guid(3fd9eeccb741242839c8a626235f5909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f27f5f6cf04307e2e0057614bb1fe94') in 0.001353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.164333 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider01_Fill_Blue.png
+  artifactKey: Guid(48c2ace495a62437584c2d7519f21ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider01_Fill_Blue.png using Guid(48c2ace495a62437584c2d7519f21ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1fa036411f70f2bba1e4a258de3bc84') in 0.002881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.490464 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider01_Fill_Green.png
+  artifactKey: Guid(ac73c0f8ce316413b97be03ff2106d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider01_Fill_Green.png using Guid(ac73c0f8ce316413b97be03ff2106d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eb4008a4c1d1327ad478b840d6d249') in 0.001423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.042672 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider01_Fill_White.png
+  artifactKey: Guid(e5bb2c28685d3448199dd1700780462c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider01_Fill_White.png using Guid(e5bb2c28685d3448199dd1700780462c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb75eb02faa8f8a39d9be2671d46ec23') in 0.001448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035124 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider01_Fill_Yellow.png
+  artifactKey: Guid(27d1d5d00830f4779a61556f06a3bf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider01_Fill_Yellow.png using Guid(27d1d5d00830f4779a61556f06a3bf58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6a4037f9b92558afa55714071ecb6f') in 0.001365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.037034 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider01_Frame.png
+  artifactKey: Guid(169a838f4d213406eb6bf7211ef920a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider01_Frame.png using Guid(169a838f4d213406eb6bf7211ef920a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e314093d346768701cdd3b2e039a72') in 0.001483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.037656 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider01_FrontFrame.png
+  artifactKey: Guid(59afca1a34b0140dbafd3348547b0543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider01_FrontFrame.png using Guid(59afca1a34b0140dbafd3348547b0543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c5afb497fb9bb193c0af8d13233a04') in 0.001403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035184 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_HandleType_Frame.png
+  artifactKey: Guid(7839622de1368438d9fe32b918432e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_HandleType_Frame.png using Guid(7839622de1368438d9fe32b918432e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7916d6f60a484c15350707acf7d72e') in 0.001677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033669 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_HandleType_Frame_Off.png
+  artifactKey: Guid(eb7c18a7df91741ea82209a091f42ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_HandleType_Frame_Off.png using Guid(eb7c18a7df91741ea82209a091f42ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740fc7a15a0f95f3ac005eaf76ac783e') in 0.001513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.036922 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_HandleType_Frame_On.png
+  artifactKey: Guid(c95d72fe7a26b4814920512bf909549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_HandleType_Frame_On.png using Guid(c95d72fe7a26b4814920512bf909549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91444b0686328f802b15ea86244cb256') in 0.002972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.037368 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_HandleType_Frame_PatternDot.png
+  artifactKey: Guid(0a23b96f8e0054fd8a4b95a2077d416e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_HandleType_Frame_PatternDot.png using Guid(0a23b96f8e0054fd8a4b95a2077d416e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6892cf354280e7cacfe113d9fdfd61') in 0.001775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029818 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_HandleType_Handle.png
+  artifactKey: Guid(385378796258143cdb031984a45549aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_HandleType_Handle.png using Guid(385378796258143cdb031984a45549aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b7fedd12a2677eaa712164878a35eb') in 0.001768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.040985 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_IconType_Fill.png
+  artifactKey: Guid(065450da264e04b7794bc44ef6528638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_IconType_Fill.png using Guid(065450da264e04b7794bc44ef6528638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df4dbc63198e4d1a252094de71505d1') in 0.001603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.040337 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_IconType_Fill_White.png
+  artifactKey: Guid(a5019631f68794b34b825244d7419cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_IconType_Fill_White.png using Guid(a5019631f68794b34b825244d7419cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5b1488657553a657c60a2299f155d4') in 0.001412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.041175 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_IconType_Icon.png
+  artifactKey: Guid(677d06e4ca28442c0a98411050e61c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_IconType_Icon.png using Guid(677d06e4ca28442c0a98411050e61c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18c0bef1af60bc292a8f7c3b7e9126c') in 0.001310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.040046 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_IconType_InnerFrame.png
+  artifactKey: Guid(c7c80fb5ad0bf4a008c590e563ef7fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/Slider_IconType_InnerFrame.png using Guid(c7c80fb5ad0bf4a008c590e563ef7fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb7aad02cfbf6bac9ef6ef28da574fd') in 0.001364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.064804 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_1_Fill.png
+  artifactKey: Guid(d301edfd5473a45bfa2ded6823eeb04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_1_Fill.png using Guid(d301edfd5473a45bfa2ded6823eeb04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472f54191ffbaea442ffc09deede7f19') in 0.001270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038897 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_1_Fill_White.png
+  artifactKey: Guid(918c06bac0aa44dcc900f479fa8e8fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_1_Fill_White.png using Guid(918c06bac0aa44dcc900f479fa8e8fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9968cc4b0d5c69af4bfd375bf26353') in 0.001827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025718 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_1_Frame.png
+  artifactKey: Guid(9c92bad97e6fc4517b73aa0c5775f2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_1_Frame.png using Guid(9c92bad97e6fc4517b73aa0c5775f2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c230c0d14474fc467fff5a2f76d00f') in 0.002416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.037276 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_1_InnerFrame.png
+  artifactKey: Guid(04d798ba66848412982c77f806bca993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_1_InnerFrame.png using Guid(04d798ba66848412982c77f806bca993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec97e69abe4b24e99ba484d69109b34') in 0.001140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.026861 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_2_Fill.png
+  artifactKey: Guid(b7c28c60077e1491f81b07091b29fa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_2_Fill.png using Guid(b7c28c60077e1491f81b07091b29fa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855e6c8bf7d27a14d9202aa588782682') in 0.001226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.034558 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_2_Fill_White.png
+  artifactKey: Guid(bed14e6bd5c204966bf974e90e94edc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_2_Fill_White.png using Guid(bed14e6bd5c204966bf974e90e94edc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5adeea22ebb89dbd6b624190ef41c8') in 0.001136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.040884 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_2_Frame.png
+  artifactKey: Guid(70beb284284b74e2ea96aeee38a232af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_2_Frame.png using Guid(70beb284284b74e2ea96aeee38a232af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccee3ccac7dbd9d5f46833f8d026e8b8') in 0.001433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.040788 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_2_InnerFrame.png
+  artifactKey: Guid(63af01ea5320f488ca6d4b5424f535eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_2_InnerFrame.png using Guid(63af01ea5320f488ca6d4b5424f535eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0690dc8f1e6ba44e94ac6874a9cb4bb0') in 0.001711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.036651 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_Icon.png
+  artifactKey: Guid(7f962e067e69144f9b0566316b3aab93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_Icon.png using Guid(7f962e067e69144f9b0566316b3aab93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6eef87678f474dac7ea1e7901a962c') in 0.001149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.039246 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_PictureBackFrame_Back.png
+  artifactKey: Guid(5aa336de7dcd6435895b9f46c4be36a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_PictureBackFrame_Back.png using Guid(5aa336de7dcd6435895b9f46c4be36a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c1c9dce37c4ab382eb7ca4dad74ba2') in 0.001117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.036224 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_PictureBackFrame_Gray.png
+  artifactKey: Guid(9eac8937eb7124c1f9ffe8b0c53fc902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_PictureBackFrame_Gray.png using Guid(9eac8937eb7124c1f9ffe8b0c53fc902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5adc683841ea175d994cc3660f2197') in 0.001098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.034161 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_PictureBackFrame_White.png
+  artifactKey: Guid(7e326fdb1ce694a6592388c4553e351e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_PictureBackFrame_White.png using Guid(7e326fdb1ce694a6592388c4553e351e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa4b063ba8bb7c70e7a76b0b323f556') in 0.002292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029819 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_PictureFrame_Front.png
+  artifactKey: Guid(5a531b6fd98e64d2e997f19a9737f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Slider/SliderGroup_UserInfo_PictureFrame_Front.png using Guid(5a531b6fd98e64d2e997f19a9737f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945ca8986e9d4585d9ab94889888f1a4') in 0.001568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.048668 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Demo
+  artifactKey: Guid(4558eef8ddbf6436f84661479a7acb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Demo using Guid(4558eef8ddbf6436f84661479a7acb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9726bd7ad36973d6f33b24e6b891aae') in 0.000689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012069 seconds.
+  path: Assets/GUI Kit - BlueSky/Scene
+  artifactKey: Guid(37c2c1f308300459ba4a22bc6b4901b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/Scene using Guid(37c2c1f308300459ba4a22bc6b4901b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08ed4eabb2fb9d91731e8921e3e2868') in 0.000453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014863 seconds.
+  path: Assets/GUI Kit - BlueSky/Scripts
+  artifactKey: Guid(8090065bf71414951bbe6f77e0db06e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/Scripts using Guid(8090065bf71414951bbe6f77e0db06e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53afbc47b2d726131b69b0d7589ba067') in 0.000515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.027374 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(78d33b53311f15847ae78411971fcbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(78d33b53311f15847ae78411971fcbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11947d8c4e0877901b7dfae2d9ab65b') in 0.001078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.042605 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(0220aab0833d04faeb927d84ca6cc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(0220aab0833d04faeb927d84ca6cc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0f1c9b956b738fc08170e3f36fa937') in 0.000478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.036315 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30796653c4dfc1f2480bca9d8b60487c') in 0.000524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.018614 seconds.
+  path: Assets/UI.unity
+  artifactKey: Guid(29df65fe0c2130043befc7a789584aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI.unity using Guid(29df65fe0c2130043befc7a789584aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9498f45ae5c26e2fa65e48e6712c65') in 0.000812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.851084 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon
+  artifactKey: Guid(0000c7ad602f148adb727d16d790323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon using Guid(0000c7ad602f148adb727d16d790323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1309056f71bd40ca37397f679befe453') in 0.000616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.158515 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame
+  artifactKey: Guid(3dfa79f149df249ad84b192a133d0532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame using Guid(3dfa79f149df249ad84b192a133d0532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39fda425c8a204b9048161f7240fc46') in 0.000679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.158489 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button
+  artifactKey: Guid(efcd38d5a32b447fc9f2422e1a4dbf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button using Guid(efcd38d5a32b447fc9f2422e1a4dbf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1dc9087cd7c7a1d715ba40305628a2') in 0.001864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.136745 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/ActionText
+  artifactKey: Guid(90e1177da90ff4ef098e28ae535e92f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/ActionText using Guid(90e1177da90ff4ef098e28ae535e92f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6f8069e299b228ef7cb41d144d08b1') in 0.000543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.580216 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Circle00.png
+  artifactKey: Guid(dcbda7fbd2ed8473e9c124b07bb3882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Circle00.png using Guid(dcbda7fbd2ed8473e9c124b07bb3882f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9636b44be65133852aa416eadbe91a') in 0.001156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.415507 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Circle01_Blue.png
+  artifactKey: Guid(5245a0747945646a3a922fadb0fa1547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Circle01_Blue.png using Guid(5245a0747945646a3a922fadb0fa1547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdce75faf6299a9cc90254d0ad3545c') in 0.001632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.195970 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Circle01_Red.png
+  artifactKey: Guid(1d86f06f22cdb4949869e39a03957e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Circle01_Red.png using Guid(1d86f06f22cdb4949869e39a03957e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57f43c1716575b04c81067864ec9fa2') in 0.002157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.169280 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Circle02.png
+  artifactKey: Guid(9446bd6b7e8aa4a44a9b9b71df40e516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Circle02.png using Guid(9446bd6b7e8aa4a44a9b9b71df40e516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a966d83ffd49f11fa6d62641ecc913f') in 0.002126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.147833 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle00_Blue.png
+  artifactKey: Guid(737274634ad8d4c5dad172bbc1aafdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle00_Blue.png using Guid(737274634ad8d4c5dad172bbc1aafdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f1b8b7046b61b1045d939fe3243225') in 0.002661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.177441 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle00_Green.png
+  artifactKey: Guid(450ce0cdd8bbd4cb2acdfd86f85136c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle00_Green.png using Guid(450ce0cdd8bbd4cb2acdfd86f85136c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99da3767bcd108277dfde93dc1584bd6') in 0.002173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.195653 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle00_Red.png
+  artifactKey: Guid(e601bcb4e4f874b50876618c43150c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle00_Red.png using Guid(e601bcb4e4f874b50876618c43150c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc525e1c877c9204453247157cdcf76') in 0.001606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.191294 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle00_Yellow.png
+  artifactKey: Guid(18e9d080cfeac4bcbbd49c99ada661e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle00_Yellow.png using Guid(18e9d080cfeac4bcbbd49c99ada661e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e828463cee891b8249dedbe321a56c83') in 0.001534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.165168 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle01.png
+  artifactKey: Guid(2e6d5ce01eca94ae4a9277415b4a4dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle01.png using Guid(2e6d5ce01eca94ae4a9277415b4a4dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36f6f4f293e4839ff7df8dc2ed03014') in 0.002768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.123549 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle02.png
+  artifactKey: Guid(ba7f4ea6925b54a9bb59796518100b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle02.png using Guid(ba7f4ea6925b54a9bb59796518100b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc557ed180dc8d5af9c76dbcb2a8392f') in 0.001607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.170258 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle03_Blue.png
+  artifactKey: Guid(705fabcf7c2ea4be9b97dc151e4981be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle03_Blue.png using Guid(705fabcf7c2ea4be9b97dc151e4981be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10488ead60a20473e35ada71b436c0ff') in 0.002111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.154440 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle03_Green.png
+  artifactKey: Guid(cb57a1e07c427498ca88931342455182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle03_Green.png using Guid(cb57a1e07c427498ca88931342455182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613e2f52e20c423ff5f89520798d299c') in 0.001638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.146556 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle03_White.png
+  artifactKey: Guid(e9417d16abc1543328d8685e52f3379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle03_White.png using Guid(e9417d16abc1543328d8685e52f3379d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192c9405e98d33fa4ce2c1925367f8ce') in 0.001368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.168982 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle04_Blue.png
+  artifactKey: Guid(a8c00959312d042faa3fd4337500e438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle04_Blue.png using Guid(a8c00959312d042faa3fd4337500e438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4786c82adab3fd4f5cecaf9398542638') in 0.002153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.150494 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle04_Gray.png
+  artifactKey: Guid(e702c5aac4f684bcc97af118d6959d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle04_Gray.png using Guid(e702c5aac4f684bcc97af118d6959d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a462f9bb30beee22e50a0b550ac4c5a') in 0.001344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.152353 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle04_Green.png
+  artifactKey: Guid(82568ae4ef94544e38b32548cebc68d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle04_Green.png using Guid(82568ae4ef94544e38b32548cebc68d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56acde71ac9ea455b74ce8ace94f609e') in 0.001321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.161430 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle04_White.png
+  artifactKey: Guid(5ff0b752bc933423fb313bdc794bad10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle04_White.png using Guid(5ff0b752bc933423fb313bdc794bad10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffa6aa22de088f2783f743b0779b92f') in 0.001463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.159113 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle05_Blue.png
+  artifactKey: Guid(b5224c20b8afd472e84bd3715b536eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle05_Blue.png using Guid(b5224c20b8afd472e84bd3715b536eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ffe1f5e464071631c3f0f2d54f2e2c') in 0.001344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.164721 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle05_BlueLine.png
+  artifactKey: Guid(bcf99098cca7f4927983be282a077ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle05_BlueLine.png using Guid(bcf99098cca7f4927983be282a077ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d36b6cb8e3188073e7434acb7018d50') in 0.001365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.138301 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle05_Navy.png
+  artifactKey: Guid(9a0e2ee6095f54171badb49cfa7c6248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle05_Navy.png using Guid(9a0e2ee6095f54171badb49cfa7c6248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df045f424d51bb6a81fdc3e6ae6e9a3') in 0.001276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.188111 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle05_White.png
+  artifactKey: Guid(ec56cd53adffc42d1bcab000faf41be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle05_White.png using Guid(ec56cd53adffc42d1bcab000faf41be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41401fb8712b4376254a89a8c1d64729') in 0.001484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.168009 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle06.png
+  artifactKey: Guid(b98409ea433164b4680372de58ca600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle06.png using Guid(b98409ea433164b4680372de58ca600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a4e0ba12f5c75e8a7a5783e0a6f8dd') in 0.002391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.172789 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle07.png
+  artifactKey: Guid(834fad310574d4be4a9e0a89a3ce8ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle07.png using Guid(834fad310574d4be4a9e0a89a3ce8ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06421882eb50e6a6e4d1d27dc537a03a') in 0.002279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.187882 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle08.png
+  artifactKey: Guid(ec597518cded74d0db3b50fa9e4286ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Rectangle08.png using Guid(ec597518cded74d0db3b50fa9e4286ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95aad89ff96825cb588819ee37b8c803') in 0.002680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.123039 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Square00_Blue.png
+  artifactKey: Guid(a2f838448ba53435c81b81af62f9ab7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Square00_Blue.png using Guid(a2f838448ba53435c81b81af62f9ab7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e056b51029df3393f8092b8207b4ec7c') in 0.002917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.162517 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Square00_Green.png
+  artifactKey: Guid(57190d23a8d2f4298bb98c62f2c92aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Square00_Green.png using Guid(57190d23a8d2f4298bb98c62f2c92aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf3f6767669b2470de74d054d8fb133') in 0.001485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.186699 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Square00_Red.png
+  artifactKey: Guid(0d9c7b7bf75d745528e6be14360b4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Square00_Red.png using Guid(0d9c7b7bf75d745528e6be14360b4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30282c6bca7d50ee1fa6dd6c8f3e3eab') in 0.001463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.152672 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Square00_Yellow.png
+  artifactKey: Guid(bf7ec18812f794241b072cd447e22a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Button/Btn_Square00_Yellow.png using Guid(bf7ec18812f794241b072cd447e22a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3add3a8dd198b20bf2b306e88a56794') in 0.001524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.772911 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Circle_78.png
+  artifactKey: Guid(c0674a7cedf5549858d78f9a7e05aa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Circle_78.png using Guid(c0674a7cedf5549858d78f9a7e05aa20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330ed2518ef0d7b31382574e337e5071') in 0.001310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.251604 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Rectangle00.png
+  artifactKey: Guid(9814648b7373e43b1b388723321d5d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Rectangle00.png using Guid(9814648b7373e43b1b388723321d5d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975738f8c47fefd50971dc0a469c3031') in 0.001243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.206443 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Rectangle01.png
+  artifactKey: Guid(2fb445e0df39c401d8ad2a45b13b8a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Rectangle01.png using Guid(2fb445e0df39c401d8ad2a45b13b8a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2874b6df90c1b2c405d22d4bcee7eef1') in 0.001103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.167180 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Rhombus.png
+  artifactKey: Guid(750e048d8e4554fa5ac3e1aa3b247ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Rhombus.png using Guid(750e048d8e4554fa5ac3e1aa3b247ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e37fe4c99d1241df382918810976e97') in 0.002004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.155174 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_Green1.png
+  artifactKey: Guid(796738dc4a50a4588b657831710d18bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_Green1.png using Guid(796738dc4a50a4588b657831710d18bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e73a1859b4415171cb1c12996e08f8') in 0.001286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.157545 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_Green2.png
+  artifactKey: Guid(086807cb8537943a3aecf3f09727446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_Green2.png using Guid(086807cb8537943a3aecf3f09727446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145a0814417afc4ab91484236d1d8e9e') in 0.001586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.167674 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_Pink.png
+  artifactKey: Guid(88ef826c4ad4c4d2987571e2be400df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_Pink.png using Guid(88ef826c4ad4c4d2987571e2be400df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e943147be38de1714ef6edea8442fe07') in 0.001428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.133460 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_Purple.png
+  artifactKey: Guid(7b980d701fe4040d7bff62cd15f7d6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_Purple.png using Guid(7b980d701fe4040d7bff62cd15f7d6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3253e5b779f07ca1246715099c5233ac') in 0.001316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.165041 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_Sky.png
+  artifactKey: Guid(d88d70a17ac33414c95ad5d9659d07f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_Sky.png using Guid(d88d70a17ac33414c95ad5d9659d07f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc760a52ff4be78d81bfcab94ef9e789') in 0.001376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.138461 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_White.png
+  artifactKey: Guid(f48512635a4af47898af593bb1e0b0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_White.png using Guid(f48512635a4af47898af593bb1e0b0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db128ae55f2a7a531a37fc70817c0183') in 0.001453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.159107 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_Yellow.png
+  artifactKey: Guid(0520644574d6e42b1bbab1308c911844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/Frame_Square00_Yellow.png using Guid(0520644574d6e42b1bbab1308c911844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad33ac48383fd573db4c778e0272f1db') in 0.001489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.156956 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame00_Focus.png
+  artifactKey: Guid(a5e27ca9878d54787b40883d6c9aec5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame00_Focus.png using Guid(a5e27ca9878d54787b40883d6c9aec5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4469061d1b6957ec693ecc43409ae0') in 0.001643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.145350 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame00_Focus_white.png
+  artifactKey: Guid(eec429706393849edace09fea0e61111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame00_Focus_white.png using Guid(eec429706393849edace09fea0e61111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb5f4d1c2f63b267db552120cc01ade') in 0.002844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.150724 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame00_Frame.png
+  artifactKey: Guid(44c1c9b266b2645aabec6b693cef8ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame00_Frame.png using Guid(44c1c9b266b2645aabec6b693cef8ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73ecfc872ba735b2fdb93df3727115d') in 0.001131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.163170 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame00_InnerFrame_d.png
+  artifactKey: Guid(e383a7333a562493e92f2eb7b6dfb72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame00_InnerFrame_d.png using Guid(e383a7333a562493e92f2eb7b6dfb72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776dbd671ae0f886d8f507d1b2c2563a') in 0.001391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.165344 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame00_InnerFrame_n.png
+  artifactKey: Guid(3e946c9fd47054bd69e1b5d81622337d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame00_InnerFrame_n.png using Guid(3e946c9fd47054bd69e1b5d81622337d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba96f13b737814d3d4bcaf17f5e94663') in 0.001589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.166234 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame00_InnerFrame_white.png
+  artifactKey: Guid(e643144b18575463b8c7b2159f1825c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame00_InnerFrame_white.png using Guid(e643144b18575463b8c7b2159f1825c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb252702ac378f515ef119290bb4451') in 0.002451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.492735 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame01.png
+  artifactKey: Guid(c4b5dc1f42e1d4613aaf169ad09e3585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame01.png using Guid(c4b5dc1f42e1d4613aaf169ad09e3585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a873973cb0b6fc29fb940024d560a69') in 0.001376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.036759 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame02.png
+  artifactKey: Guid(e7d32f76b8c854de5a0ee3bf2fe381d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame02.png using Guid(e7d32f76b8c854de5a0ee3bf2fe381d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c331bac59da233114a8ed37fc5e45e42') in 0.002277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035468 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame02_white.png
+  artifactKey: Guid(5d1271fcb2ed04b4f98b05daca42c7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ItemFrame02_white.png using Guid(5d1271fcb2ed04b4f98b05daca42c7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5aa27cc7b5ddd1b83d0273b7c5473d8') in 0.001755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.032721 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ListFrame00.png
+  artifactKey: Guid(b5bf3844ebcfa4e1c8e7d43c82a6f0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ListFrame00.png using Guid(b5bf3844ebcfa4e1c8e7d43c82a6f0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a0016bc098b98941c905dd58dfaf02') in 0.001267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038790 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ListFrame01.png
+  artifactKey: Guid(1c3a2bb6d7f6440118270c7e58e7e3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/ListFrame01.png using Guid(1c3a2bb6d7f6440118270c7e58e7e3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1406d01d6f514b06185d87884ef4205d') in 0.001170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035563 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/StageFrame_Frame.png
+  artifactKey: Guid(1b6e391dfca5f443096f981d5d11daff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/StageFrame_Frame.png using Guid(1b6e391dfca5f443096f981d5d11daff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f08b392a05a822086fe786b0b5ad852') in 0.002350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035517 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/StageFrame_InnerFrame_d.png
+  artifactKey: Guid(5d372ac4abd98414f8d6f09f94e0e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/StageFrame_InnerFrame_d.png using Guid(5d372ac4abd98414f8d6f09f94e0e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd939b1ac023ad9c9518489812cdc85d8') in 0.001299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.039051 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/StageFrame_InnerFrame_n.png
+  artifactKey: Guid(0942670320809405997827193d4989a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/StageFrame_InnerFrame_n.png using Guid(0942670320809405997827193d4989a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535fc629cc2c897a39fa409eb205c7e8') in 0.001319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.046643 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/StageFrame_InnerFrame_s.png
+  artifactKey: Guid(b728b2ae739e54654b1b549f56975877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/StageFrame_InnerFrame_s.png using Guid(b728b2ae739e54654b1b549f56975877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b1f9184279dec1b18bd43b2c1c48d6') in 0.002271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.117966 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/StageFrame_InnerFrame_white.png
+  artifactKey: Guid(ed184e426477a45a4a6ab0a43de91a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/StageFrame_InnerFrame_white.png using Guid(ed184e426477a45a4a6ab0a43de91a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ec10719b3a71ff3c7b76c1b7b9e8eb') in 0.001166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.205290 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/TableFrame.png
+  artifactKey: Guid(0f9eb00540c074ac99e2885359d51169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Frame/TableFrame.png using Guid(0f9eb00540c074ac99e2885359d51169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a28d72edd8f5a1442249a047c725592') in 0.001593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.647662 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component
+  artifactKey: Guid(ab85eaf53c4e04239881d61edea736c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component using Guid(ab85eaf53c4e04239881d61edea736c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced300fb709a58736350ea739d2dcade') in 0.000878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.731121 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite
+  artifactKey: Guid(302327c9761484729b72f02bf74daef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite using Guid(302327c9761484729b72f02bf74daef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef541efee55c7aa97efb0bcd0e8f2383') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.722060 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/ActionText/ActionText_Amazing.png
+  artifactKey: Guid(f4b14ad8f66bc46899be44ba769a26c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/ActionText/ActionText_Amazing.png using Guid(f4b14ad8f66bc46899be44ba769a26c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a2c30d408af15bdedb3b11f74763fe') in 0.001351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.561889 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/ActionText/ActionText_Awesome.png
+  artifactKey: Guid(d86ea5b7c17204248ae747debb728660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/ActionText/ActionText_Awesome.png using Guid(d86ea5b7c17204248ae747debb728660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee79fbcb45a60ee454b468b3445b239d') in 0.001713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.202353 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/ActionText/ActionText_BonusTime_0.png
+  artifactKey: Guid(3c23d422c20ae4704bcc0672000bd6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/ActionText/ActionText_BonusTime_0.png using Guid(3c23d422c20ae4704bcc0672000bd6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65163de04ae3f84583f56cefbd57906a') in 0.001310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.140337 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/ActionText/ActionText_BonusTime_1.png
+  artifactKey: Guid(b739d1b88c82b43e9ac6fe4097d48483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/ActionText/ActionText_BonusTime_1.png using Guid(b739d1b88c82b43e9ac6fe4097d48483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f09fa9038b46b2c8d8f213d2fb204d') in 0.002519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.445085 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256
+  artifactKey: Guid(acdbf42cb9d1a42ddae5a5c78e737d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256 using Guid(acdbf42cb9d1a42ddae5a5c78e737d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5d05a8029a4d53278f43d7ce3f1cfb') in 0.000758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.588170 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_arrow.png
+  artifactKey: Guid(d20de81750cd346368f6c48280e1a630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_arrow.png using Guid(d20de81750cd346368f6c48280e1a630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a36af9a1e0498093d0734e23cf6c0b') in 0.001092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.326392 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_bomb.png
+  artifactKey: Guid(601abf8140dce40658efdf2048b5fbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_bomb.png using Guid(601abf8140dce40658efdf2048b5fbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067b8994b98975530168956c5106a9a5') in 0.002103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.297298 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_calendar.png
+  artifactKey: Guid(daaf50e3498054c50a0db2cd47f153b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_calendar.png using Guid(daaf50e3498054c50a0db2cd47f153b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b18e9bae341883c1ce654c83a6eed8') in 0.001167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.202741 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_chest.png
+  artifactKey: Guid(7a223ff82afc24c74aeda3019f71506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_chest.png using Guid(7a223ff82afc24c74aeda3019f71506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf078a37045adca900d04b79fb72a51') in 0.001397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.170454 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_crown.png
+  artifactKey: Guid(475ccee64ca704bdb89954f06d177ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_crown.png using Guid(475ccee64ca704bdb89954f06d177ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a762a8f3960e07921affd16ba5b2e6') in 0.002602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.309938 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_dynamite.png
+  artifactKey: Guid(23c2a57d3bd344e7195ce0a1a65fca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_dynamite.png using Guid(23c2a57d3bd344e7195ce0a1a65fca1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889a533c364459bfef65a140f073650c') in 0.001211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.321183 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_exclamation_mark.png
+  artifactKey: Guid(0bf1df03d8a9d4603b3a77ec87c915bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_exclamation_mark.png using Guid(0bf1df03d8a9d4603b3a77ec87c915bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6850a9fd0784dfc2c43dc53b4863da2') in 0.001306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.157806 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_gem.png
+  artifactKey: Guid(919ffee284b5c434fac4275d6b1da571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_gem.png using Guid(919ffee284b5c434fac4275d6b1da571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3c1c05d3873dedc990f76a7bfaf4b4') in 0.001876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.148423 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_gift.png
+  artifactKey: Guid(2a24c69877b1f4dd1b67cf9aded45486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_gift.png using Guid(2a24c69877b1f4dd1b67cf9aded45486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e1d38b8bfa1c08bc60edcafad46f2f') in 0.001822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.485790 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_gold.png
+  artifactKey: Guid(fc034535ad51440dca68b9e3093cd9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_gold.png using Guid(fc034535ad51440dca68b9e3093cd9d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e8dd6d1e20f828133b4d8e3562fd5b') in 0.002159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.034597 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_key.png
+  artifactKey: Guid(f503a3fa9a5ad4f8cad7d5c1df20e535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_key.png using Guid(f503a3fa9a5ad4f8cad7d5c1df20e535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9468102bfa90f120b960555e100911ad') in 0.001277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.037130 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_life.png
+  artifactKey: Guid(2fa8dd85a7861479e8e245a51f16f24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_life.png using Guid(2fa8dd85a7861479e8e245a51f16f24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73eabef0b154dde626c3baebf7a5dac2') in 0.001364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038072 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_lock.png
+  artifactKey: Guid(76cffd95d9be7406982fad37a3c83c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_lock.png using Guid(76cffd95d9be7406982fad37a3c83c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01ca0ea38deb04334997a241cbc673d') in 0.001517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.071723 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_lock_gray.png
+  artifactKey: Guid(ff078b60725864eb48399c31fc2dc774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_lock_gray.png using Guid(ff078b60725864eb48399c31fc2dc774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da8848c7eebd9806d73bcf47504725e') in 0.001533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.221173 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_medal_bronze.png
+  artifactKey: Guid(5a30014b6c47d49cfbc04f8f57341ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_medal_bronze.png using Guid(5a30014b6c47d49cfbc04f8f57341ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e814c3dd8243753cb5c4d56535ff952') in 0.001212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.164871 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_medal_gold.png
+  artifactKey: Guid(2f9ae2543d8034fd5b357277c2b7481e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_medal_gold.png using Guid(2f9ae2543d8034fd5b357277c2b7481e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9e39c0b39b8406357d2f28f40ca343') in 0.001168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.173137 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_medal_silver.png
+  artifactKey: Guid(4d4f6093ec77849f599107224b53f8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_medal_silver.png using Guid(4d4f6093ec77849f599107224b53f8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b5fed1c3af59bd151559870066f12f') in 0.001337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.149196 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_message.png
+  artifactKey: Guid(35a355db8a5fa4237910de1fadeb5f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_message.png using Guid(35a355db8a5fa4237910de1fadeb5f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375205cd16aa1604b5eba96a0e971ac4') in 0.001414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.168906 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_mission.png
+  artifactKey: Guid(11ff0b6117cbe49d0b78d50a15794266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_mission.png using Guid(11ff0b6117cbe49d0b78d50a15794266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7d57803115328f39d30100132bd1a5') in 0.001533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.150968 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_potion_green.png
+  artifactKey: Guid(a236b3ecc1eab4fcfb43042b7fffe509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_potion_green.png using Guid(a236b3ecc1eab4fcfb43042b7fffe509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25d77ccfb0f5363f888d0ac1c9fff2e') in 0.001964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.170596 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_potion_purple.png
+  artifactKey: Guid(9d4db38b107c147b2a8ccedac221207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_potion_purple.png using Guid(9d4db38b107c147b2a8ccedac221207c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf2d97f99cc288045eb7df77f8fa610') in 0.001473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.143820 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_setting.png
+  artifactKey: Guid(5ad554057bc71432f9b51d4f257d6926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_setting.png using Guid(5ad554057bc71432f9b51d4f257d6926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99d8bd2b51985243eea37f33624cc7e') in 0.001448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.161674 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_shield.png
+  artifactKey: Guid(8af0a130ce1e0436393ad03bd487a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_shield.png using Guid(8af0a130ce1e0436393ad03bd487a9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ad729627b11e4548bbec5da11f4216') in 0.001242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.178486 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_shop.png
+  artifactKey: Guid(91af753690d9442bab5fc0a4889a4107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_shop.png using Guid(91af753690d9442bab5fc0a4889a4107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74628a58e43138a716c808b210d734f') in 0.001278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1572.592787 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_512
+  artifactKey: Guid(2b600c46b0ac1446f8571c590ef592ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_512 using Guid(2b600c46b0ac1446f8571c590ef592ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95dc9279e519c8dd6657fa1d1a8bab55') in 0.000920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.362747 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_stopwatch.png
+  artifactKey: Guid(c6eeceb8c342647bfb4689288aaff8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_stopwatch.png using Guid(c6eeceb8c342647bfb4689288aaff8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c678a27e453cee646aa14249f302a9e6') in 0.002446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.482433 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_star.png
+  artifactKey: Guid(fed79d3c3afc3442887183107f5e73a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_star.png using Guid(fed79d3c3afc3442887183107f5e73a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f2e315927559378de1a9bc1d06796f') in 0.002423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.161493 seconds.
+  path: Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_skull.png
+  artifactKey: Guid(7551e186ee2f14815a878461ceb3af33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit - BlueSky/ResourcesData/Sprite/Component/Icon_ItemIcon/ItemIcon_256/icon_skull.png using Guid(7551e186ee2f14815a878461ceb3af33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19fc7bfda098f6a6bb2690b8d78b350') in 0.002251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
