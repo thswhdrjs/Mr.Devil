@@ -1,12 +1,15 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : Singleton<GameManager>
 {
     public bool isDone;
 
-    [SerializeField]
-    private bool[] sceneChoice;
+    protected override void Awake()
+    {
+        isDone = false;
+    }
 
     private void Start()
     {
@@ -27,33 +30,28 @@ public class GameManager : Singleton<GameManager>
         #region Setting
 
         Init();
+
+        yield return new WaitUntil(() => DataManager.Instance.data.level != 0);
+        StartCoroutine(FunctionManager.Instance.Fade(true, () => isDone = true));
+
         yield return new WaitUntil(() => isDone);
+        isDone = false;
 
         #endregion
 
-        #region Phase1
-
-        if (sceneChoice[0])
-        {
-            /* Fade Out */
-            //StartCoroutine(FunctionManager.Instance.Fade(true, () => isDone = true));
-
-            yield return new WaitUntil(() => isDone);
-            isDone = false;
-
-            /*Function*/
+        /*Function*/
 
 
-            /* Wait */
-            yield return new WaitUntil(() => isDone);
-            isDone = false;
-        }
-
-        #endregion
+        /* Wait */
+        yield return new WaitUntil(() => isDone);
+        isDone = false;
     }
 
     private void Init()
     {
-        isDone = false;
+        Image loading = Singleton.Instance.loadingImageLoading.GetComponent<Image>();
+        loading.color = new Color(0f, 0f, 0f, 1f);
+
+        DataManager.Instance.UpdateData();
     }
 }

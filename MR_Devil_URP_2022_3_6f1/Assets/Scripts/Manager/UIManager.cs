@@ -98,7 +98,7 @@ public class UIManager : Singleton<UIManager>
 
     #endregion
 
-    public void SetSprite(Sprite[] sprites, GameObject obj, int order)
+    private void SetSprite(Sprite[] sprites, GameObject obj, int order)
     {
         Image image = obj.GetComponent<Image>();
         image.sprite = sprites[order];
@@ -190,6 +190,13 @@ public class UIManager : Singleton<UIManager>
         //PhotonManager.Instance.photonView.RPC("TimebarControl", RpcTarget.All, second);
     }
 
+    private void ClickedQuit()
+    {
+        FunctionManager.Instance.InitChildButton(buttonObj, false);
+
+        //StartCoroutine(FunctionManager.Instance.Fade(() => Application.Quit()));
+    }
+
     #region Setting
 
     private void ClickedSetting()
@@ -255,11 +262,4 @@ public class UIManager : Singleton<UIManager>
     }
 
     #endregion
-
-    private void ClickedQuit()
-    {
-        FunctionManager.Instance.InitChildButton(buttonObj, false);
-
-        //StartCoroutine(FunctionManager.Instance.Fade(() => Application.Quit()));
-    }
 }

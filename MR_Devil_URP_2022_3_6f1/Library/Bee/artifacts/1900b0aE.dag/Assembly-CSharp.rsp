@@ -426,6 +426,7 @@
 "Assets/ExternalAssets/Unity-Logs-Viewer/Reporter/Test/Rotate.cs"
 "Assets/ExternalAssets/Unity-Logs-Viewer/Reporter/Test/TestReporter.cs"
 "Assets/ExternalAssets/Universal Render Pipeline/TutorialInfo/Scripts/Readme.cs"
+"Assets/Scripts/DataManager.cs"
 "Assets/Scripts/FPS/FPS_GUI.cs"
 "Assets/Scripts/FPS/FPS_TextMeshPro.cs"
 "Assets/Scripts/Manager/FunctionManager.cs"

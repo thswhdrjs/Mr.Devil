@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\Manager\Singleton.cs" />
     <Compile Include="Assets\ExternalAssets\Easy performant outline\Scripts\SerializedPass.cs" />
     <Compile Include="Assets\ExternalAssets\GUI Kit - BlueSky\ResourcesData\SampleParticle\Extentions\UIParticle\UIParticleSystem.cs" />
+    <Compile Include="Assets\Scripts\DataManager.cs" />
     <Compile Include="Assets\ExternalAssets\Universal Render Pipeline\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\ExternalAssets\Easy performant outline\Scripts\OutlineParameters.cs" />
     <Compile Include="Assets\ExternalAssets\GUI Kit - BlueSky\Scripts\PanelControlBlueSky.cs" />

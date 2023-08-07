@@ -177,133 +177,133 @@ public class FunctionManager : Singleton<FunctionManager>
 
     #region Fade
 
-    //// Fade Out ~ Fade In
-    //public IEnumerator Fade()
-    //{
-    //    Singleton.Instance.loading.SetActive(true);
-    //    Singleton.Instance.imageLoading.SetActive(true);
+    // Fade Out ~ Fade In
+    public IEnumerator Fade()
+    {
+        Singleton.Instance.loading.SetActive(true);
+        Singleton.Instance.loadingImageLoading.SetActive(true);
 
-    //    Image fadeImg = Singleton.Instance.imageLoading.GetComponent<Image>();
-    //    fadeImg.color = new Color(0.2235294f, 0.2392157f, 0.2431373f, 0);
+        Image fadeImg = Singleton.Instance.loadingImageLoading.GetComponent<Image>();
+        fadeImg.color = new Color(0.2235294f, 0.2392157f, 0.2431373f, 0);
 
-    //    Color color = fadeImg.color;
+        Color color = fadeImg.color;
 
-    //    while (0f <= color.a && color.a <= 1f)
-    //    {
-    //        color.a += Time.deltaTime * 1.6f;
-    //        fadeImg.color = color;
-    //        yield return new WaitForEndOfFrame();
-    //    }
+        while (0f <= color.a && color.a <= 1f)
+        {
+            color.a += Time.deltaTime * 1.6f;
+            fadeImg.color = color;
+            yield return new WaitForEndOfFrame();
+        }
 
-    //    color.a = 1f;
-    //    fadeImg.color = color;
-    //    yield return new WaitForSeconds(1f);
+        color.a = 1f;
+        fadeImg.color = color;
+        yield return new WaitForSeconds(1f);
 
-    //    while (0f <= color.a && color.a <= 1f)
-    //    {
-    //        color.a -= Time.deltaTime * 1.6f;
-    //        fadeImg.color = color;
-    //        yield return new WaitForEndOfFrame();
-    //    }
+        while (0f <= color.a && color.a <= 1f)
+        {
+            color.a -= Time.deltaTime * 1.6f;
+            fadeImg.color = color;
+            yield return new WaitForEndOfFrame();
+        }
 
-    //    color.a = 0f;
-    //    fadeImg.color = color;
-    //}
+        color.a = 0f;
+        fadeImg.color = color;
+    }
 
-    //// Fade Out ~ fadeAction ~ Fade In
-    //public IEnumerator Fade(Action fadeAction)
-    //{
-    //    Singleton.Instance.loading.SetActive(true);
-    //    Singleton.Instance.imageLoading.SetActive(true);
+    // Fade Out ~ fadeAction ~ Fade In
+    public IEnumerator Fade(Action fadeAction)
+    {
+        Singleton.Instance.loading.SetActive(true);
+        Singleton.Instance.loadingImageLoading.SetActive(true);
 
-    //    Image fadeImg = Singleton.Instance.imageLoading.GetComponent<Image>();
-    //    fadeImg.color = new Color(0.2235294f, 0.2392157f, 0.2431373f, 0);
+        Image fadeImg = Singleton.Instance.loadingImageLoading.GetComponent<Image>();
+        fadeImg.color = new Color(0.2235294f, 0.2392157f, 0.2431373f, 0);
 
-    //    Color color = fadeImg.color;
+        Color color = fadeImg.color;
 
-    //    while (0f <= color.a && color.a <= 1f)
-    //    {
-    //        color.a += Time.deltaTime * 1.6f;
-    //        fadeImg.color = color;
-    //        yield return new WaitForEndOfFrame();
-    //    }
+        while (0f <= color.a && color.a <= 1f)
+        {
+            color.a += Time.deltaTime * 1.6f;
+            fadeImg.color = color;
+            yield return new WaitForEndOfFrame();
+        }
 
-    //    color.a = 1f;
-    //    fadeImg.color = color;
+        color.a = 1f;
+        fadeImg.color = color;
 
-    //    yield return new WaitForEndOfFrame();
-    //    fadeAction();
+        yield return new WaitForEndOfFrame();
+        fadeAction();
 
-    //    yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1f);
 
-    //    while (0f <= color.a && color.a <= 1f)
-    //    {
-    //        color.a -= Time.deltaTime * 1.6f;
-    //        fadeImg.color = color;
-    //        yield return new WaitForEndOfFrame();
-    //    }
+        while (0f <= color.a && color.a <= 1f)
+        {
+            color.a -= Time.deltaTime * 1.6f;
+            fadeImg.color = color;
+            yield return new WaitForEndOfFrame();
+        }
 
-    //    color.a = 0f;
-    //    fadeImg.color = color;
-    //}
+        color.a = 0f;
+        fadeImg.color = color;
+    }
 
-    //// Fade In Or Fade Out
-    //public IEnumerator Fade(bool isFadeIn)
-    //{
-    //    Singleton.Instance.loading.SetActive(true);
-    //    Singleton.Instance.imageLoading.SetActive(true);
+    // Fade In Or Fade Out
+    public IEnumerator Fade(bool isFadeIn)
+    {
+        Singleton.Instance.loading.SetActive(true);
+        Singleton.Instance.loadingImageLoading.SetActive(true);
 
-    //    float setAlpha = isFadeIn ? 1f : 0f;
-    //    float targetAlpha = isFadeIn ? 0f : 1f;
-    //    float flag = isFadeIn ? -1f : 1f;
+        float setAlpha = isFadeIn ? 1f : 0f;
+        float targetAlpha = isFadeIn ? 0f : 1f;
+        float flag = isFadeIn ? -1f : 1f;
 
-    //    Image fadeImg = Singleton.Instance.imageLoading.GetComponent<Image>();
-    //    fadeImg.color = new Color(0.2235294f, 0.2392157f, 0.2431373f, setAlpha);
+        Image fadeImg = Singleton.Instance.loadingImageLoading.GetComponent<Image>();
+        fadeImg.color = new Color(0.2235294f, 0.2392157f, 0.2431373f, setAlpha);
 
-    //    Color color = fadeImg.color;
+        Color color = fadeImg.color;
 
-    //    while (0f <= color.a && color.a <= 1f)
-    //    {
-    //        color.a += Time.deltaTime * 1.6f * flag;
-    //        fadeImg.color = color;
-    //        yield return new WaitForEndOfFrame();
-    //        print(1);
-    //    }
+        while (0f <= color.a && color.a <= 1f)
+        {
+            color.a += Time.deltaTime * 1.6f * flag;
+            fadeImg.color = color;
+            yield return new WaitForEndOfFrame();
+            print(1);
+        }
 
-    //    color.a = targetAlpha;
-    //    fadeImg.color = color;
+        color.a = targetAlpha;
+        fadeImg.color = color;
 
-    //    yield return new WaitForEndOfFrame();
-    //}
+        yield return new WaitForEndOfFrame();
+    }
 
-    //// Fade In Or Fade Out ~ fadeAction
-    //public IEnumerator Fade(bool isFadeIn, Action fadeAction)
-    //{
-    //    Singleton.Instance.loading.SetActive(true);
-    //    Singleton.Instance.imageLoading.SetActive(true);
+    // Fade In Or Fade Out ~ fadeAction
+    public IEnumerator Fade(bool isFadeIn, Action fadeAction)
+    {
+        Singleton.Instance.loading.SetActive(true);
+        Singleton.Instance.loadingImageLoading.SetActive(true);
 
-    //    float setAlpha = isFadeIn ? 1f : 0f;
-    //    float targetAlpha = isFadeIn ? 0f : 1f;
-    //    float flag = isFadeIn ? -1f : 1f;
+        float setAlpha = isFadeIn ? 1f : 0f;
+        float targetAlpha = isFadeIn ? 0f : 1f;
+        float flag = isFadeIn ? -1f : 1f;
 
-    //    Image fadeImg = Singleton.Instance.imageLoading.GetComponent<Image>();
-    //    fadeImg.color = new Color(0.2235294f, 0.2392157f, 0.2431373f, setAlpha);
+        Image fadeImg = Singleton.Instance.loadingImageLoading.GetComponent<Image>();
+        fadeImg.color = new Color(0.2235294f, 0.2392157f, 0.2431373f, setAlpha);
 
-    //    Color color = fadeImg.color;
+        Color color = fadeImg.color;
 
-    //    while (0f <= color.a && color.a <= 1f)
-    //    {
-    //        color.a += Time.deltaTime * 1.6f * flag;
-    //        fadeImg.color = color;
-    //        yield return new WaitForEndOfFrame();
-    //    }
+        while (0f <= color.a && color.a <= 1f)
+        {
+            color.a += Time.deltaTime * 1.6f * flag;
+            fadeImg.color = color;
+            yield return new WaitForEndOfFrame();
+        }
 
-    //    color.a = targetAlpha;
-    //    fadeImg.color = color;
+        color.a = targetAlpha;
+        fadeImg.color = color;
 
-    //    yield return new WaitForEndOfFrame();
-    //    fadeAction();
-    //}
+        yield return new WaitForEndOfFrame();
+        fadeAction();
+    }
 
     // obj Fade In ~ Fade Out
     public IEnumerator FadeObject(GameObject obj)

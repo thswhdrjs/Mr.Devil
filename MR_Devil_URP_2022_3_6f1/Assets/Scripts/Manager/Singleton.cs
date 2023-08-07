@@ -39,7 +39,13 @@ public class Singleton
 
     public GameObject camera;
 
-    public GameObject canvas;
+    #region Canvas_Main
+
+    public GameObject canvasMain;
+    public GameObject background,
+                        backgroundPlay,
+                            backgroundImageFrontBackground,
+                            backgroundImageRearBackground;
     public GameObject level,
                         levelTmpLevel;
     public GameObject coin,
@@ -51,118 +57,174 @@ public class Singleton
     public GameObject skill,
                         skillButtonSkiilName;
     public GameObject stat,
-                        statAttack,
+                        statImageAttack,
+                            statAttackImageAttack,
                             statAttackTmpLevel,
                             statAttackTmpValue,
                             statAttackButtonUp,
-                        statSpeed,
+                                statAttackButtonUpCost,
+                                statAttackButtonUpCostTmpCost,
+                        statImageSpeed,
+                            statSpeedImageSpeed,
                             statSpeedTmpLevel,
                             statSpeedTmpValue,
                             statSpeedButtonUp,
-                        statCritical,
+                                statSpeedButtonUpCost,
+                                statSpeedButtonUpCostTmpCost,
+                        statImageCritical,
+                            statCriticalImageCritical,
                             statCriticalTmpLevel,
                             statCriticalTmpValue,
                             statCriticalButtonUp,
-                        statDefense,
+                                statCriticalButtonUpCost,
+                                statCriticalButtonUpCostTmpCost,
+                        statImageDefense,
+                            statDefenseImageDefense,
                             statDefenseTmpLevel,
                             statDefenseTmpValue,
                             statDefenseButtonUp,
-                        statHealth,
+                                statDefenseButtonUpCost,
+                                statDefenseButtonUpCostTmpCost,
+                        statImageHealth,
+                            statHealthImageHealth,
                             statHealthTmpLevel,
                             statHealthTmpValue,
-                            statHealthButtonUp;
+                            statHealthButtonUp,
+                                statHealthButtonUpCost,
+                                statHealthButtonUpCostTmpCost;
     public GameObject contents,
                         contentsButtonDevil,
                         contentsButtonCoworker,
                         contentsButtonShop;
+    public GameObject loading,
+                        loadingImageLoading;
+
+    #endregion
+
+    #region Canvas_Popup
+
+    public GameObject canvasPopup;
+
+    #endregion
 
     public Singleton()
     {
         camera = GameObject.Find("Main Camera");
 
-        canvas = GameObject.Find("Canvas");
+        #region Canvas_Main
+
+        canvasMain = GameObject.Find("Canvas_Main");
+
+        #region Background
+
+        background = canvasMain.transform.Find("Background").gameObject;
+        backgroundPlay = background.transform.Find("Play").gameObject;
+        backgroundImageFrontBackground = backgroundPlay.transform.Find("Image_FrontBackground").gameObject;
+        backgroundImageRearBackground = backgroundPlay.transform.Find("Image_RearBackground").gameObject;
+
+        #endregion
 
         #region Level
 
-        level = canvas.transform.Find("Level").gameObject;
+        level = canvasMain.transform.Find("Level").gameObject;
         levelTmpLevel = level.transform.Find("Text (TMP)_Level").gameObject;
 
         #endregion
 
         #region Coin
 
-        coin = canvas.transform.Find("Coin").gameObject;
+        coin = canvasMain.transform.Find("Coin").gameObject;
             coinTmpCoin = coin.transform.Find("Text (TMP)_Coin").gameObject;
 
         #endregion
 
         #region Gem
 
-        gem = canvas.transform.Find("Gem").gameObject;
+        gem = canvasMain.transform.Find("Gem").gameObject;
             gemTmpCoin = gem.transform.Find("Text (TMP)_Gem").gameObject;
 
         #endregion
 
         #region Setting
 
-        setting = canvas.transform.Find("Setting").gameObject;
+        setting = canvasMain.transform.Find("Setting").gameObject;
         settingButtonSetting = setting.transform.Find("Button_Setting").gameObject;
 
         #endregion
 
         #region Skill
 
-        skill = canvas.transform.Find("Skill").gameObject;
+        skill = canvasMain.transform.Find("Skill").gameObject;
             skillButtonSkiilName = skill.transform.Find("Button_SkillName").gameObject;
 
         #endregion
 
         #region Stat
 
-        stat = canvas.transform.Find("Stat").gameObject;
+        stat = canvasMain.transform.Find("Stat").gameObject;
 
         #region Attack
 
-        statAttack = stat.transform.Find("Attack").gameObject;
-        statAttackTmpLevel = statAttack.transform.Find("Text (TMP)_Level").gameObject;
-        statAttackTmpValue = statAttack.transform.Find("Text (TMP)_Value").gameObject;
-        statAttackButtonUp = statAttack.transform.Find("Button_Up").gameObject;
+        statImageAttack = stat.transform.Find("Image_AttackFrame").gameObject;
+        statAttackImageAttack = statImageAttack.transform.Find("Image_Attack").gameObject;
+        statAttackTmpLevel = statAttackImageAttack.transform.Find("Text (TMP)_Level").gameObject;
+
+        statAttackTmpValue = statImageAttack.transform.Find("Text (TMP)_Value").gameObject;
+        statAttackButtonUp = statImageAttack.transform.Find("Button_Up").gameObject;
+        statAttackButtonUpCost = statAttackButtonUp.transform.Find("Cost").gameObject;
+        statAttackButtonUpCostTmpCost = statAttackButtonUpCost.transform.Find("Text (TMP)_Cost").gameObject;
 
         #endregion
 
-        #region Spped
+        #region Speed
 
-        statSpeed = stat.transform.Find("Speed").gameObject;
-        statSpeedTmpLevel = statSpeed.transform.Find("Text (TMP)_Level").gameObject;
-        statSpeedTmpValue = statSpeed.transform.Find("Text (TMP)_Value").gameObject;
-        statSpeedButtonUp = statSpeed.transform.Find("Button_Up").gameObject;
+        statImageSpeed = stat.transform.Find("Image_SpeedFrame").gameObject;
+        statSpeedImageSpeed = statImageSpeed.transform.Find("Image_Speed").gameObject;
+        statSpeedTmpLevel = statSpeedImageSpeed.transform.Find("Text (TMP)_Level").gameObject;
+
+        statSpeedTmpValue = statImageSpeed.transform.Find("Text (TMP)_Value").gameObject;
+        statSpeedButtonUp = statImageSpeed.transform.Find("Button_Up").gameObject;
+        statSpeedButtonUpCost = statSpeedButtonUp.transform.Find("Cost").gameObject;
+        statSpeedButtonUpCostTmpCost = statSpeedButtonUpCost.transform.Find("Text (TMP)_Cost").gameObject;
 
         #endregion
 
         #region Critical
 
-        statCritical = stat.transform.Find("Critical").gameObject;
-        statCriticalTmpLevel = statCritical.transform.Find("Text (TMP)_Level").gameObject;
-        statCriticalTmpValue = statCritical.transform.Find("Text (TMP)_Value").gameObject;
-        statCriticalButtonUp = statCritical.transform.Find("Button_Up").gameObject;
+        statImageCritical = stat.transform.Find("Image_CriticalFrame").gameObject;
+        statCriticalImageCritical = statImageCritical.transform.Find("Image_Critical").gameObject;
+        statCriticalTmpLevel = statCriticalImageCritical.transform.Find("Text (TMP)_Level").gameObject;
+
+        statCriticalTmpValue = statImageCritical.transform.Find("Text (TMP)_Value").gameObject;
+        statCriticalButtonUp = statImageCritical.transform.Find("Button_Up").gameObject;
+        statCriticalButtonUpCost = statCriticalButtonUp.transform.Find("Cost").gameObject;
+        statCriticalButtonUpCostTmpCost = statCriticalButtonUpCost.transform.Find("Text (TMP)_Cost").gameObject;
 
         #endregion
 
         #region Defense
 
-        statDefense = stat.transform.Find("Defense").gameObject;
-        statDefenseTmpLevel = statDefense.transform.Find("Text (TMP)_Level").gameObject;
-        statDefenseTmpValue = statDefense.transform.Find("Text (TMP)_Value").gameObject;
-        statDefenseButtonUp = statDefense.transform.Find("Button_Up").gameObject;
+        statImageDefense = stat.transform.Find("Image_DefenseFrame").gameObject;
+        statDefenseImageDefense = statImageDefense.transform.Find("Image_Defense").gameObject;
+        statDefenseTmpLevel = statDefenseImageDefense.transform.Find("Text (TMP)_Level").gameObject;
+
+        statDefenseTmpValue = statImageDefense.transform.Find("Text (TMP)_Value").gameObject;
+        statDefenseButtonUp = statImageDefense.transform.Find("Button_Up").gameObject;
+        statDefenseButtonUpCost = statDefenseButtonUp.transform.Find("Cost").gameObject;
+        statDefenseButtonUpCostTmpCost = statDefenseButtonUpCost.transform.Find("Text (TMP)_Cost").gameObject;
 
         #endregion
 
         #region Health
 
-        statHealth = stat.transform.Find("Health").gameObject;
-        statHealthTmpLevel = statHealth.transform.Find("Text (TMP)_Level").gameObject;
-        statHealthTmpValue = statHealth.transform.Find("Text (TMP)_Value").gameObject;
-        statHealthButtonUp = statHealth.transform.Find("Button_Up").gameObject;
+        statImageHealth = stat.transform.Find("Image_HealthFrame").gameObject;
+        statHealthImageHealth = statImageHealth.transform.Find("Image_Health").gameObject;
+        statHealthTmpLevel = statHealthImageHealth.transform.Find("Text (TMP)_Level").gameObject;
+
+        statHealthTmpValue = statImageHealth.transform.Find("Text (TMP)_Value").gameObject;
+        statHealthButtonUp = statImageHealth.transform.Find("Button_Up").gameObject;
+        statHealthButtonUpCost = statHealthButtonUp.transform.Find("Cost").gameObject;
+        statHealthButtonUpCostTmpCost = statHealthButtonUpCost.transform.Find("Text (TMP)_Cost").gameObject;
 
         #endregion
 
@@ -170,10 +232,25 @@ public class Singleton
 
         #region Contents
 
-        contents = canvas.transform.Find("Contents").gameObject;
+        contents = canvasMain.transform.Find("Contents").gameObject;
         contentsButtonDevil = contents.transform.Find("Button_Devil").gameObject;
         contentsButtonCoworker = contents.transform.Find("Button_Coworker").gameObject;
         contentsButtonShop = contents.transform.Find("Button_Shop").gameObject;
+
+        #endregion
+
+        #region Loading
+
+        loading = canvasMain.transform.Find("Loading").gameObject;
+        loadingImageLoading = loading.transform.Find("Image_Loading").gameObject;
+
+        #endregion
+
+        #endregion
+
+        #region Canvas_Popup
+
+        canvasPopup = GameObject.Find("Canvas_Popup");
 
         #endregion
     }
