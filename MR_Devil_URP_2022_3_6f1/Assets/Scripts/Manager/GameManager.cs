@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,6 +17,7 @@ public class GameManager : Singleton<GameManager>
         FunctionManager.Instance.SetFrameRate(120);
 
         StartCoroutine(Contents());
+        StartCoroutine(AutoSave());
     }
 
     private void Update()
@@ -47,11 +49,27 @@ public class GameManager : Singleton<GameManager>
         isDone = false;
     }
 
+    private IEnumerator AutoSave()
+    {
+        yield return new WaitForSeconds(180f);
+        DataManager.Instance.SaveData();
+    }
+
     private void Init()
     {
         Image loading = Singleton.Instance.loadingImageLoading.GetComponent<Image>();
         loading.color = new Color(0f, 0f, 0f, 1f);
 
         DataManager.Instance.UpdateData();
+    }
+
+    private void OnApplicationQuit()
+    {
+        DataManager.Instance.data.level = int.Parse(Singleton.Instance.levelTmpLevel.GetComponent<TextMeshProUGUI>().text);
+
+        DataManager.Instance.data.coin = int.Parse(Singleton.Instance.coinTmpCoin.GetComponent<TextMeshProUGUI>().text);
+        DataManager.Instance.data.gem = int.Parse(Singleton.Instance.gemTmpGem.GetComponent<TextMeshProUGUI>().text);
+
+        DataManager.Instance.SaveData();
     }
 }

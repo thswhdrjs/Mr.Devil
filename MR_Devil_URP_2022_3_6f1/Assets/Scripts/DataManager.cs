@@ -7,20 +7,28 @@ public class UserData
 {
     public string nickname;
 
+    public int sound,
+               music,
+               notification;
+
     public int level;
 
-    public int coin;
-    public int gem;
+    public int coin,
+               gem;
 
-    public int attackLevel;
-    public int speedLevel;
-    public int criticalLevel;
-    public int defenseLevel;
-    public int healthLevel;
+    public int attackLevel,
+               speedLevel,
+               criticalLevel,
+               defenseLevel,
+               healthLevel;
 
     public UserData()
     {
         nickname = string.Empty;
+
+        sound = 0;
+        music = 0;
+        notification = 0;
 
         level = 0;
 
@@ -34,9 +42,13 @@ public class UserData
         healthLevel = 0;
     }
 
-    public UserData(string _nickname, int _level, int _coin, int _gem, int _attackLevel, int _speedLevel, int _criticalLevel, int _defenseLevel, int _healthLevel)
+    public UserData(string _nickname, int _sound, int _music, int _notification, int _level, int _coin, int _gem, int _attackLevel, int _speedLevel, int _criticalLevel, int _defenseLevel, int _healthLevel)
     {
         nickname = _nickname;
+
+        sound = _sound;
+        music = _music;
+        notification = _notification;
 
         level = _level;
 
@@ -54,6 +66,8 @@ public class UserData
 public class DataManager : Singleton<DataManager>
 {
     public UserData data;
+
+    #region Save
 
     public void SaveData<T>(string key, T value)
     {
@@ -77,12 +91,19 @@ public class DataManager : Singleton<DataManager>
         }
     }
 
-    public void SaveData(string nickname, int level, int coin, int gem, int attackLevel, int speedLevel, int criticalLevel, int defenseLevel, int healthLevel)
+    public void SaveData(string nickname, int sound, int music, int notification, int level, int coin, int gem, int attackLevel, int speedLevel, int criticalLevel, int defenseLevel, int healthLevel)
     {
         PlayerPrefs.SetString("NickName", nickname);
+
+        PlayerPrefs.SetInt("Sound", sound);
+        PlayerPrefs.SetInt("Music", music);
+        PlayerPrefs.SetInt("Notification", notification);
+
         PlayerPrefs.SetInt("Level", level);
+
         PlayerPrefs.SetInt("Coin", coin);
         PlayerPrefs.SetInt("Gem", gem);
+
         PlayerPrefs.SetInt("AttackLevel", attackLevel);
         PlayerPrefs.SetInt("SpeedLevel", speedLevel);
         PlayerPrefs.SetInt("CriticalLevel", criticalLevel);
@@ -90,10 +111,34 @@ public class DataManager : Singleton<DataManager>
         PlayerPrefs.SetInt("HealthLevel", healthLevel);
     }
 
+    public void SaveData()
+    {
+        PlayerPrefs.SetString("NickName", data.nickname);
+
+        PlayerPrefs.SetInt("Sound", data.sound);
+        PlayerPrefs.SetInt("Music", data.music);
+        PlayerPrefs.SetInt("Notification", data.notification);
+
+        PlayerPrefs.SetInt("Level", data.level);
+
+        PlayerPrefs.SetInt("Coin", data.coin);
+        PlayerPrefs.SetInt("Gem", data.gem);
+
+        PlayerPrefs.SetInt("AttackLevel", data.attackLevel);
+        PlayerPrefs.SetInt("SpeedLevel", data.speedLevel);
+        PlayerPrefs.SetInt("CriticalLevel", data.criticalLevel);
+        PlayerPrefs.SetInt("DefenseLevel", data.defenseLevel);
+        PlayerPrefs.SetInt("HealthLevel", data.healthLevel);
+    }
+
+    #endregion
+
+    #region Load
+
     public int LoadIntData(string key)
     {
         if (!PlayerPrefs.HasKey(key))
-            return 1;
+            return 0;
 
         return PlayerPrefs.GetInt(key);
     }
@@ -101,7 +146,7 @@ public class DataManager : Singleton<DataManager>
     public float LoadFloatData(string key)
     {
         if (!PlayerPrefs.HasKey(key))
-            return 1f;
+            return 0f;
 
         return PlayerPrefs.GetFloat(key);
     }
@@ -118,19 +163,25 @@ public class DataManager : Singleton<DataManager>
     {
         string nickname = LoadStringData("Nickname");
 
+        int sound = LoadIntData("Sound");
+        int music = LoadIntData("Music");
+        int notification = LoadIntData("Notification");
+
         int level = LoadIntData("Level");
 
         int coin = LoadIntData("Coin");
         int gem = LoadIntData("Gem");
 
-        int attackLevel = LoadIntData("AttackLevel");
-        int speedLevel = LoadIntData("SpeedLevel");
-        int criticalLevel = LoadIntData("CriticalLevel");
-        int defenseLevel = LoadIntData("DefenseLevel");
-        int healthLevel = LoadIntData("HealthLevel");
+        int attackLevel = LoadIntData("AttackLevel") == 0 ? 1 : LoadIntData("AttackLevel");
+        int speedLevel = LoadIntData("SpeedLevel") == 0 ? 1 : LoadIntData("SpeedLevel");
+        int criticalLevel = LoadIntData("CriticalLevel") == 0 ? 1 : LoadIntData("CriticalLevel");
+        int defenseLevel = LoadIntData("DefenseLevel") == 0 ? 1 : LoadIntData("DefenseLevel");
+        int healthLevel = LoadIntData("HealthLevel") == 0 ? 1 : LoadIntData("HealthLevel");
 
-        data = new UserData(nickname, level, coin, gem, attackLevel, speedLevel, criticalLevel, defenseLevel, healthLevel);
+        data = new UserData(nickname, sound, music, notification, level, coin, gem, attackLevel, speedLevel, criticalLevel, defenseLevel, healthLevel);
     }
+
+    #endregion
 
     public void UpdateData()
     {
@@ -138,17 +189,26 @@ public class DataManager : Singleton<DataManager>
 
         //Singleton.Instance.nickname.GetComponent<TextMeshProUGUI>().text = data.nickname;
 
+        Singleton.Instance.settingsButtonSound.transform.GetChild(0).gameObject.SetActive(data.sound == 0);
+        Singleton.Instance.settingsButtonSound.transform.GetChild(1).gameObject.SetActive(data.sound == 1);
+
+        Singleton.Instance.settingsButtonMusic.transform.GetChild(0).gameObject.SetActive(data.music == 0);
+        Singleton.Instance.settingsButtonMusic.transform.GetChild(1).gameObject.SetActive(data.music == 1);
+
+        Singleton.Instance.settingsButtonNotification.transform.GetChild(0).gameObject.SetActive(data.notification == 0);
+        Singleton.Instance.settingsButtonNotification.transform.GetChild(1).gameObject.SetActive(data.notification == 1);
+
         Singleton.Instance.levelTmpLevel.GetComponent<TextMeshProUGUI>().text = data.level.ToString();
 
         Singleton.Instance.coinTmpCoin.GetComponent<TextMeshProUGUI>().text = data.coin.ToString();
-        Singleton.Instance.gemTmpCoin.GetComponent<TextMeshProUGUI>().text = data.gem.ToString();
+        Singleton.Instance.gemTmpGem.GetComponent<TextMeshProUGUI>().text = data.gem.ToString();
 
         Singleton.Instance.statAttackTmpLevel.GetComponent<TextMeshProUGUI>().text = "Lv." + data.attackLevel.ToString();
         Singleton.Instance.statAttackTmpValue.GetComponent<TextMeshProUGUI>().text = (data.attackLevel * 5f).ToString();
         Singleton.Instance.statAttackButtonUpCostTmpCost.GetComponent<TextMeshProUGUI>().text = (data.attackLevel * 50f).ToString();
 
         Singleton.Instance.statSpeedTmpLevel.GetComponent<TextMeshProUGUI>().text = "Lv." + data.speedLevel.ToString();
-        Singleton.Instance.statSpeedTmpValue.GetComponent<TextMeshProUGUI>().text = (1 + data.speedLevel * 0.001f).ToString();
+        Singleton.Instance.statSpeedTmpValue.GetComponent<TextMeshProUGUI>().text = (0.999f + data.speedLevel * 0.001f).ToString("F3");
         Singleton.Instance.statSpeedButtonUpCostTmpCost.GetComponent<TextMeshProUGUI>().text = (data.speedLevel * 50f).ToString();
 
         Singleton.Instance.statCriticalTmpLevel.GetComponent<TextMeshProUGUI>().text = "Lv." + data.criticalLevel.ToString();
@@ -162,6 +222,5 @@ public class DataManager : Singleton<DataManager>
         Singleton.Instance.statHealthTmpLevel.GetComponent<TextMeshProUGUI>().text = "Lv." + data.healthLevel.ToString();
         Singleton.Instance.statHealthTmpValue.GetComponent<TextMeshProUGUI>().text = (data.healthLevel * 10f).ToString();
         Singleton.Instance.statHealthButtonUpCostTmpCost.GetComponent<TextMeshProUGUI>().text = (data.healthLevel * 50f).ToString();
-
     }
 }

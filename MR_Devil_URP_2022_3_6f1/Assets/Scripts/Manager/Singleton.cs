@@ -51,7 +51,7 @@ public class Singleton
     public GameObject coin,
                         coinTmpCoin;
     public GameObject gem,
-                        gemTmpCoin;
+                        gemTmpGem;
     public GameObject setting,
                         settingButtonSetting;
     public GameObject skill,
@@ -104,6 +104,59 @@ public class Singleton
     #region Canvas_Popup
 
     public GameObject canvasPopup;
+    public GameObject settings,
+                        settingsButtonSound,
+                        settingsButtonMusic,
+                        settingsButtonNotification,
+                        settingsButtonFacebook,
+                        settingsButtonTwitter,
+                        settingsButtonGoogle,
+                        settingsButtonClose;
+    public GameObject devil,
+                        devilButtonLevel,
+                        devilButtonSkill,
+                        devilButtonChange,
+                        devilButtonClose;
+    public GameObject coworker,
+                        coworkerInfo,
+                            coworkerInfoButtonInfo,
+                            coworkerInfoSpec,
+                                coworkerInfoSpecTmpName,
+                                coworkerInfoSpecTmpLevel,
+                                coworkerInfoSpecTmpEffect,
+                                coworkerInfoSpecTmpSkill,
+                        coworkerButtonCall,
+                        coworkerButtonUpgrade,
+                        coworkerButtonClose;
+    public GameObject shop,
+                        shopCoin,
+                            shopCoinTab,
+                                shopCoinTabButtonCoin,
+                                shopCoinTabButtonGem,
+                                shopCoinTabButtonLife,
+                            shopCoinButtonGem,
+                            shopCoinButtonGem2,
+                            shopCoinButtonGem3,
+                            shopCoinButtonGem4,
+                        shopGem,
+                            shopGemTab,
+                                shopGemTabButtonCoin,
+                                shopGemTabButtonGem,
+                                shopGemTabButtonLife,
+                            shopGemButtonUS,
+                            shopGemButtonUS2,
+                            shopGemButtonUS3,
+                            shopGemButtonUS4,
+                        shopLife,
+                            shopLifeTab,
+                                shopLifeTabButtonCoin,
+                                shopLifeTabButtonGem,
+                                shopLifeTabButtonLife,
+                            shopLifeButtonUS,
+                            shopLifeButtonUS2,
+                            shopLifeButtonUS3,
+                            shopLifeButtonUS4,
+                        shopButtonClose;
 
     #endregion
 
@@ -131,17 +184,13 @@ public class Singleton
 
         #endregion
 
-        #region Coin
+        #region Money
 
         coin = canvasMain.transform.Find("Coin").gameObject;
-            coinTmpCoin = coin.transform.Find("Text (TMP)_Coin").gameObject;
-
-        #endregion
-
-        #region Gem
+        coinTmpCoin = coin.transform.Find("Text (TMP)_Coin").gameObject;
 
         gem = canvasMain.transform.Find("Gem").gameObject;
-            gemTmpCoin = gem.transform.Find("Text (TMP)_Gem").gameObject;
+        gemTmpGem = gem.transform.Find("Text (TMP)_Gem").gameObject;
 
         #endregion
 
@@ -251,6 +300,87 @@ public class Singleton
         #region Canvas_Popup
 
         canvasPopup = GameObject.Find("Canvas_Popup");
+
+        #region Settings
+
+        settings = canvasPopup.transform.Find("Settings").gameObject;
+        settingsButtonSound = settings.transform.Find("Button_Sound").gameObject;
+        settingsButtonMusic = settings.transform.Find("Button_Music").gameObject;
+        settingsButtonNotification = settings.transform.Find("Button_Notification").gameObject;
+        settingsButtonFacebook = settings.transform.Find("Button_Facebook").gameObject;
+        settingsButtonTwitter = settings.transform.Find("Button_Twitter").gameObject;
+        settingsButtonGoogle = settings.transform.Find("Button_Google").gameObject;
+        settingsButtonClose = settings.transform.Find("Button_Close").gameObject;
+
+        #endregion
+
+        #region Devil
+
+        devil = canvasPopup.transform.Find("Devil").gameObject;
+        devilButtonLevel = devil.transform.Find("Button_Level").gameObject;
+        devilButtonSkill = devil.transform.Find("Button_Skill").gameObject;
+        devilButtonChange = devil.transform.Find("Button_Change").gameObject;
+        devilButtonClose = devil.transform.Find("Button_Close").gameObject;
+
+        #endregion
+
+        #region Coworker
+
+        coworker = canvasPopup.transform.Find("Coworker").gameObject;
+        coworkerInfo = coworker.transform.Find("Info").gameObject;
+        coworkerInfoButtonInfo = coworkerInfo.transform.Find("Button_Info").gameObject;
+
+        coworkerInfoSpec = coworkerInfo.transform.Find("Spec").gameObject;
+        coworkerInfoSpecTmpName = coworkerInfoSpec.transform.Find("Text (TMP)_Name").gameObject;
+        coworkerInfoSpecTmpLevel = coworkerInfoSpec.transform.Find("Text (TMP)_Level").gameObject;
+        coworkerInfoSpecTmpEffect = coworkerInfoSpec.transform.Find("Text (TMP)_Effect").gameObject;
+        coworkerInfoSpecTmpSkill = coworkerInfoSpec.transform.Find("Text (TMP)_Skill").gameObject;
+
+        coworkerButtonCall = coworker.transform.Find("Button_Call").gameObject;
+        coworkerButtonUpgrade = coworker.transform.Find("Button_Upgrade").gameObject;
+        coworkerButtonClose = coworker.transform.Find("Button_Close").gameObject;
+
+        #endregion
+
+        #region Shop
+
+        shop = canvasPopup.transform.Find("Shop").gameObject;
+        shopCoin = shop.transform.Find("Coin").gameObject;
+        shopCoinTab = shopCoin.transform.Find("Tab").gameObject;
+        shopCoinTabButtonCoin = shopCoinTab.transform.Find("Button_Coin").gameObject;
+        shopCoinTabButtonGem = shopCoinTab.transform.Find("Button_Gem").gameObject;
+        shopCoinTabButtonLife = shopCoinTab.transform.Find("Button_Life").gameObject;
+
+        shopCoinButtonGem = shopCoin.transform.Find("Button_Gem").gameObject;
+        shopCoinButtonGem2 = shopCoin.transform.Find("Button_Gem2").gameObject;
+        shopCoinButtonGem3 = shopCoin.transform.Find("Button_Gem3").gameObject;
+        shopCoinButtonGem4 = shopCoin.transform.Find("Button_Gem4").gameObject;
+
+        shopGem = shop.transform.Find("Gem").gameObject;
+        shopGemTab = shopGem.transform.Find("Tab").gameObject;
+        shopGemTabButtonCoin = shopGemTab.transform.Find("Button_Coin").gameObject;
+        shopGemTabButtonGem = shopGemTab.transform.Find("Button_Gem").gameObject;
+        shopGemTabButtonLife = shopGemTab.transform.Find("Button_Life").gameObject;
+
+        shopGemButtonUS = shopGem.transform.Find("Button_US").gameObject;
+        shopGemButtonUS2 = shopGem.transform.Find("Button_US2").gameObject;
+        shopGemButtonUS3 = shopGem.transform.Find("Button_US3").gameObject;
+        shopGemButtonUS4 = shopGem.transform.Find("Button_US4").gameObject;
+
+        shopLife = shop.transform.Find("Life").gameObject;
+        shopLifeTab = shopLife.transform.Find("Tab").gameObject;
+        shopLifeTabButtonCoin = shopLifeTab.transform.Find("Button_Coin").gameObject;
+        shopLifeTabButtonGem = shopLifeTab.transform.Find("Button_Gem").gameObject;
+        shopLifeTabButtonLife = shopLifeTab.transform.Find("Button_Life").gameObject;
+
+        shopLifeButtonUS = shopLife.transform.Find("Button_US").gameObject;
+        shopLifeButtonUS2 = shopLife.transform.Find("Button_US2").gameObject;
+        shopLifeButtonUS3 = shopLife.transform.Find("Button_US3").gameObject;
+        shopLifeButtonUS4 = shopLife.transform.Find("Button_US4").gameObject;
+
+        shopButtonClose = shop.transform.Find("Button_Close").gameObject;
+
+        #endregion
 
         #endregion
     }
